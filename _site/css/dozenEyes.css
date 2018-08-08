@@ -1,0 +1,468 @@
+
+@import url(http://fonts.googleapis.com/css?family=Nunito:700,300,400);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/* Styles */
+
+body
+{
+/*	background-color: #1f1101; */
+	margin: 0; 
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 400; 
+	background-color: #dcdcdb;
+
+}
+#wrapper{
+	margin-left:0 auto;
+    margin-right:0 auto;
+   
+    height:auto;
+} 	
+/*start header styles */
+#header{
+	width: 100%;
+	margin-bottom: 0px;
+	background-color: #1f1101;
+	margin: 0 auto;
+} 
+#header .full{
+	width: 100%; 
+	height: auto;
+}
+.logo{
+	/*this will force the box to contrain the 
+	images in side of it for retina corrections*/
+	height:auto;
+	max-width: 100%;
+	width: 17.18%;
+	padding: 1.2%;
+	margin-top: -45%;	
+	margin-bottom: 0px;
+
+}
+/*end header styles */
+
+/*start top buckets for our mission under the image sider */
+.topBuckets{
+	border: 2px #333344 solid;
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 400; 
+	background-color: #1f1101;
+	margin: 0px;
+	width: 100%; 
+	
+	display: block;
+	padding: 2% 2%;
+	   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+
+}
+.topBuckets a{display:block;}
+
+.bucket{
+	  display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+	background-color:#1f1101; 
+	margin-right: 3%;
+}
+.bucket.icon 
+{
+	max-width: 100%;
+	height: auto; 
+	
+}
+.bucket .bucketCopy h1 {
+	font-size: 1.2em;
+	color: #f5ebdc;
+	
+}
+.bucket .bucketCopy{
+	vertical-align: top;
+/*	margin-top: -13%;
+	margin-left: 15%;*/
+	clear: both;
+}
+.bucket .bucketCopy p 
+{
+	font-size: .9em;
+	color: #b39059; 
+}
+/*end top buckets*/
+
+
+/*start bio styles */
+#bio{
+ 	background-color: #dcdcdb; 
+ 	height: auto;
+ 	margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+	margin-top: 1%;
+
+
+ }
+.bioHeadline h1	 
+{ 	
+	font-family: font-family: 'Nunito', sans-serif; 
+	font-weight: 400; 
+	font-size: 1.8em; 
+	color: #846249;
+	opacity: .7; 
+    padding-top: 1%;
+ 	margin-bottom: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bioSubHead h2
+{
+	margin-top: 0px;
+	font-size: 1em;
+	font-weight: 400;
+	color: #846249; 
+	 text-align: center;
+}
+.bioName h2{
+	font-size: 1.5em;
+	color: #846249;
+	margin: 0px; 
+
+}
+.bioSlot{
+	padding-top: 3em;
+	clear: both;
+}
+.bioImage{
+	float: left;
+	padding-right: 5%;
+}
+.bioTitle h3 {
+	font-size: 1em;
+	color: #846249;	
+	margin: 0;
+}
+.bioText{
+	font-size: .8em;
+	color: #846249;	
+	opacity: .7;
+}
+/*end bio styles*/
+
+
+/*start portfolio*/
+#portfolio{
+	
+	margin-top: 5%;
+	padding-top: 7%;
+	 width: 100%;
+  text-align: center;
+}
+.portfolioRow{
+	/*border: 2px #00FF00 solid;*/
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	display: inline-block;
+}
+.portfolioRow .box{
+	height: auto;
+	width: 33%; 
+	float: right; 
+}
+.portfolio .box img{
+	width: 100%;
+	height: auto;
+	border: 0px;
+}
+.centeredLeft{
+	text-align: right;
+	display: inline-block;
+	background-color: #1f1101;
+}
+.centeredRight{
+	text-align: left;
+	display: inline-block;
+	background-color: #1f1101;
+}
+.centered{
+	text-align: center;
+	display: inline-block;
+	background-color: #1f1101;
+}
+/*end portfolio*/
+
+/*start contact area*/
+#contact{
+	clear: both;
+	width: 100%; 
+	height: auto;
+	background-color: #1f1101;
+	background-image: url("images/sayHello.png");
+
+}
+#contact .content{
+	padding: 3%;
+
+
+}
+
+#contact .headline{
+
+	color:#f5ebdc;	
+	font-size: 1.2em;	
+	line-height: 1.2em;
+}
+#contact .subhead {
+	color: #b39059;
+	margin-top: .5%;
+	width: 40%;
+}
+
+#contact a:link {
+	text-decoration: none; 
+	color: #f49907; 
+}
+#contact a:hover {
+	text-decoration: none; 
+	color: #9b0a80; 
+}
+#contact a:active {
+	text-decoration: none; 
+	color: #9b0a80; 
+	opacity: 70%; 
+}
+#contact img{
+		margin-top: -2%;
+}
+/*end contact area*/
+#doingStuff{
+	background-color: #1f1101;
+	
+	display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+}
+.stuff{   
+	display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+	flex-basis: 50%;
+	height: auto;
+	order:1;
+
+}
+
+#footer {
+	background-color: #1f1101;
+	padding-left: 60%;
+	padding-top:3%;
+	padding-right: 3%; 
+}
+#footer img {
+	vertical-align: bottom;
+	width: 100%; 
+	height: auto;
+}	
+
+/*these are styles that's the first contact area 
+and that might turn into the main nav -*/
+#con{
+	padding:2%;
+	background-color:  #f49907; 
+}
+
+a:link{
+	text-decoration: none; 
+	color: #1f1101; 
+}
+a:hover{
+		text-decoration: none; 
+	color: #9b0a80; 
+}
+a:active {
+	text-decoration: none; 
+	color: #9b0a80; 
+	opacity: 70%; 
+}
+/*generic safety and responsive css time!*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/*this keeps things from over scaling and distortion 
+	also keeps all images reponsive as a catch all 
+*/
+.photos {
+	max-width: 100%;
+	height:auto;
+
+} 
+
+/*refined portfolio*/
+ul.rig {
+	margin-top: 15%; 
+	
+	list-style: none;
+	list-style-type:none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.rig li img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+}
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+ul.rig li p {
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #999;
+}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+	width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+}
+
+@media (max-width: 768px) {
+	ul.grid-nav li {
+		display:block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.rig {
+		margin-left: 0;
+	}
+	ul.rig li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
+
+
+/*redefined top boxes */
+
+/*refined portfolio*/
+.topBoxes{
+	background-color: #1f1101;
+	margin-top: 0px
+}
+ul.rigTop {
+	padding: 0px 1%;
+	text-align: center;
+	list-style-type:none;
+	float:clear;
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+}
+ul.rigTop li {
+	padding-top: 2%;
+	display: inline-block;
+	text-align: center;
+
+	margin: 0 0 2.5% 2.5%;
+	background: #1f1101;
+	
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.rigTop li img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+}
+ul.rigTop li h3 {
+	margin: 0 0 5px;
+	font-size: 1.2em;
+	color: #f5ebdc;
+}
+ul.rigTop li p {
+	text-align: center;
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #b39059;
+}
+/* class for 2 columns */
+ul.rigTop.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.rigTop.columns-3 li {
+	width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rigTop.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+}
+
+@media (max-width: 768px) {
+	.logo{
+		width: 30%; 
+		height: auto;
+	}
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.rigTop {
+		margin-left: 0;
+	}
+	ul.rigTop li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
